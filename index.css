@@ -1,0 +1,71 @@
+main {
+	width: 100%;
+}
+
+.content-wrapper {
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+#desktop {
+	min-width: 250px;
+  max-width: 250px;
+	min-height: 100vh;
+	background: lightgray;
+}
+
+
+
+/* HOME PAGE */
+
+#redirect {
+	height: 100%;
+	display: flex;
+}
+
+#podcast-coverart {
+	width: 350px;
+	height: 350px;
+	max-width: 350px;
+	background-image: url('/crosspass-podcast/img/crosspass-coverart.jpg');
+	background-size: contain;;
+  margin: auto;
+}
+
+.redirect.wrapper {
+	text-align: center;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn {
+	height: 50px;
+	width: 100px;
+	margin: 237px 36px 0px 37px;
+}
+
+#soundcloud {
+	background: black;
+	border: 2px orange solid;
+	color: #ffbb70;
+}
+
+#soundcloud:hover {
+	border: white 2px solid;
+	color: grey;
+}
+
+#itunes {
+	border: 2px #e0f1ff solid;
+	background: #bdbcbc;
+	color: #555;
+}
+
+#itunes:hover {
+	border: 2px black solid;
+	background: #bdbcbc;
+	color: black;
+}
